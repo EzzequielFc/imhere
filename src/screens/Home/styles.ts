@@ -43,5 +43,10 @@ export const styles = StyleSheet.create({
         flexDirection: 'row',
         marginBottom: 42,
         marginTop: 36,
+    },
+    listEmpyt: {
+        color: '#FFF',
+        fontSize: 14,
+        textAlign: 'center'
     }
 })
