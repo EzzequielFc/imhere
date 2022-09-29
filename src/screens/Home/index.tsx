@@ -17,6 +17,9 @@ export function Home() {
   const [participantName, setParticipantName] = useState('');
 
   function handleParticipantAdd() {
+    if(!participantName){
+      return Alert.alert("Vazio","Preencha o campo");
+    }
     if (participants.includes(participantName)) {
       return Alert.alert(
         "Participante Existe",
